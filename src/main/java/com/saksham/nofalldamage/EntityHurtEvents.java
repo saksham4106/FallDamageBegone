@@ -14,6 +14,7 @@ public class EntityHurtEvents {
 		if(event.getSource() == DamageSource.FALL) {
 			if(!(event.getEntity() instanceof PlayerEntity)) {
 				event.setCanceled(true);
+				
 			}
 			
 		}
